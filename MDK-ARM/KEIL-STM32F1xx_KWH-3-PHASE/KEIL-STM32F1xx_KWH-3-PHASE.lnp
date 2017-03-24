@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"keil-stm32f1xx_kwh-3-phase\startup_stm32f103xb.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_rcc.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_dma.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_cortex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_tim.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_flash_ex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_gpio_ex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_uart.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_pwr.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_adc_ex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_gpio.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_tim_ex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_rcc_ex.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_adc.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_flash.o"
+"keil-stm32f1xx_kwh-3-phase\system_stm32f1xx.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_hal_msp.o"
+"keil-stm32f1xx_kwh-3-phase\stm32f1xx_it.o"
+"keil-stm32f1xx_kwh-3-phase\main.o"
+--library_type=microlib --strict --scatter "KEIL-STM32F1xx_KWH-3-PHASE\KEIL-STM32F1xx_KWH-3-PHASE.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KEIL-STM32F1xx_KWH-3-PHASE.map" -o KEIL-STM32F1xx_KWH-3-PHASE\KEIL-STM32F1xx_KWH-3-PHASE.axf
